@@ -7,6 +7,6 @@ A Reusable confirmation dialog component by using vanilla javascript, html and c
 
 All files  are in the root of the project.
 
-To view the project, click and open the modal.html file
+To view the project, click and open the modal.html file in a browser
 
 
