@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clear Calcs Modal</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="modal.css" />
+  </head>
+  <body>
+    <div class="homeContent">
+      <div class="clickButtons">
+        <button class="trigger" onclick="showModal('hello')">Click me</button>
+
+        <button class="trigger" onclick="showModal('why')">Click me</button>
+
+        <button class="trigger" onclick="showModal('what')">Click me</button>
+      </div>
+
+      <p id="clickConfirmText">
+        </p>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="toggleModal()">&times;</span>
+
+        <div class="modalBody">
+          <h1 id="modalQuestion"></h1>
+
+          <div class="confirmButtons">
+            <button class="confirmBtn" onclick="confirm('Yes')">Yes</button>
+            <button class="confirmBtn" onclick="confirm('Cancel')">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="modal.js"></script>
+</html>
